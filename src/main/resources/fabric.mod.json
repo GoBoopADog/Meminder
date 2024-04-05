@@ -18,6 +18,9 @@
 		"main": [
 			"com.boopdog.Meminder"
 		],
+		"client": [
+			"com.boopdog.MeminderClient"
+		],
 		"fabric-datagen": [
 			"com.boopdog.MeminderDataGenerator"
 		]

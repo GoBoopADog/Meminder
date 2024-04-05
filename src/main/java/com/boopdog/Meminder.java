@@ -9,7 +9,9 @@ public class Meminder implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
-    public static final Logger LOGGER = LoggerFactory.getLogger("meminder");
+	// https://youtu.be/0Pr_iHlVKsI?list=PLKGarocXCE1EO43Dlf5JGh7Yk-kRAXUEJ&t=410
+	public static final String MOD_ID = "meminder";
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() {
